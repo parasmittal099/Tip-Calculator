@@ -1,0 +1,97 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .input-group input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 14px;
+  }
+  
+  .button-group {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Added */
+    flex-wrap: wrap; /* Added */
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-left: 5px; /* Added */
+  }
+  
+  .button-group button:first-child {
+    margin-left: 0; /* Added */
+  }
+  
+  .button-group button:hover {
+    background-color: #45a049;
+  }
+  
+  .output {
+    margin-top: 20px;
+  }
+  
+  .output h1 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .footer {
+    font-size: 12px;
+    color: #777;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+  }
+  
